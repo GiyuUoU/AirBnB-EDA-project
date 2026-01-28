@@ -1,5 +1,7 @@
 # Airbnb EDA and Data Visualization Project - New York 2024
 
+![Airbnb Project Header](https://raw.githubusercontent.com/GiyuUoU/AirBnB-EDA-project/main/airbnb_logo_detail.jpg)
+
 ## Project Description
 This project performs a comprehensive Exploratory Data Analysis (EDA) on New York City Airbnb listing data for the year 2024. The analysis aims to uncover pricing trends, geographical distribution of rentals, and the relationship between different property metrics. By cleaning and visualizing the data, this project provides insights into the short-term rental market across the five boroughs of NYC.
 
@@ -20,7 +22,7 @@ The analysis covers several key attributes of the Airbnb listings, including:
 
 ## Analysis Workflow
 * **Dependencies**: Utilization of Python libraries including NumPy, Pandas, Matplotlib, and Seaborn.
-* **Data Ingestion**: Loading data with robust encoding error handling.
+* **Data Ingestion**: Loading data with robust encoding error handling (`encoding_errors='ignore'`).
 * **Data Cleaning**: Dropping unnecessary columns, handling missing values, and removing duplicates.
 * **Numerical Analysis**: Generating correlation matrices and heatmaps to understand price drivers.
 * **Categorical Analysis**: Bar charts and count plots for neighborhood and room type distributions.
